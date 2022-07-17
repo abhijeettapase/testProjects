@@ -8,6 +8,7 @@ import dagger.Component
 @Component(modules = [AppModule::class])
 interface AppComponent {
 
+    //abstract application
     fun app() : BaseApplication
 
 }
